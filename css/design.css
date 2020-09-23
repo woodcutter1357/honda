@@ -1,0 +1,45 @@
+body{
+    font-family:Verdana "굴림", "굴림체", "gulim";
+    font-size:16px;
+    background-image:url("../images/bg.gif");
+    background-repeat: repeat-x;/*가로만 반복적용*/
+    background-position:0 0;
+}
+.notext{display:none;}
+.aside li{
+    list-style:none;
+}
+.wrapper{
+    max-width:860px;
+    margin:0 auto;
+}
+#header{
+    height:380px;
+}
+#header .cf{
+    width: 74.4186046511628%;
+    height:380px;
+    float:left;
+}
+.cf video{
+    width:100%;
+    height:100%;
+}
+#header .logo{
+    width:25.58139534883721%;
+    height:380px;
+    float:right;
+}
+
+#lits li{
+    width:50%;
+    float:left;
+}
+#list li p{
+    line-height:125px;
+    text-align: center;
+}
+#map{
+    width:860px;
+    height:400px;
+}
